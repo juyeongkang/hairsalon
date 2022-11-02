@@ -99,7 +99,6 @@ function salonenter()  {
                   click5.imageScale = 1;
                   click5.locate(990, 460);
                   click5.resize(600,680);
-                  click5.strokeWeight = 0;
                   click5.onHover = function () {
                     click5.imageScale = 0.5;
                     }
