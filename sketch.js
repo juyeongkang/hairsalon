@@ -21,6 +21,8 @@ var hairdressor;
 var mainbg;
 var desk;
 var desksound;
+var cat;
+var catsound;
 
 function preload() {
   cover = loadImage("assets/enterance.jpeg");
@@ -39,6 +41,9 @@ function preload() {
   letter = loadImage("assets/letter.png");
   desk = loadImage("assets/desk.png");
   desksound = loadSound("assets/desk.mp3");
+  cat = loadImage("assets/cat.png");
+  catsound = loadSound("assets/catsound.mp3");
+
 
 }
 

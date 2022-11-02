@@ -93,6 +93,23 @@ function salonenter()  {
                   desksound.play();
                 }
 
+                click5 = new Clickable();
+                  click5.image = cat;
+                  click5.fitImage = true;
+                  click5.imageScale = 1;
+                  click5.locate(990, 460);
+                  click5.resize(600,680);
+                  click5.strokeWeight = 0;
+                  click5.onHover = function () {
+                    click5.imageScale = 0.5;
+                    }
+                  click5.onOutside = function () {
+                    click5.imageScale = 0.4;
+                  }
+                   click5.onRelease = function(){
+                     catsound.play();
+                   }
+
              click7 = new Clickable();
                click7.image = hairdressor;
                click7.fitImage = true;
@@ -140,7 +157,9 @@ this.draw = function()
        click2.draw();
        click3.draw();
        click4.draw();
+       click5.draw();
        click7.draw();
        click8.draw();
+
     }
 }
