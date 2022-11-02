@@ -32,7 +32,7 @@ function salonenter()  {
       click1.image = mp3player;
       click1.fitImage = true;
       click1.imageScale = 1;
-      click1.locate(30, 560);
+      click1.locate(30, 580);
       click1.resize(200,200);
       click1.onHover = function () {
         click1.imageScale = 0.5;
@@ -65,7 +65,7 @@ function salonenter()  {
             click3.image = customer;
             click3.fitImage = true;
             click3.imageScale = 1;
-            click3.locate(600, 470);
+            click3.locate(560, 510);
             click3.resize(300,380);
             click3.onHover = function () {
               click3.imageScale = 1.1;
@@ -81,7 +81,7 @@ function salonenter()  {
                click4.image = desk;
                click4.fitImage = true;
                click4.imageScale = 1;
-               click4.locate(820, 450);
+               click4.locate(840, 500);
                click4.resize(400,480);
                click4.onHover = function () {
                  click4.imageScale = 0.7;
@@ -97,7 +97,7 @@ function salonenter()  {
                click7.image = hairdressor;
                click7.fitImage = true;
                click7.imageScale = 1;
-               click7.locate(380, 380);
+               click7.locate(380, 410);
                click7.resize(300,480);
                click7.onHover = function () {
                  click7.imageScale = 1.1;
