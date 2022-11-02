@@ -6,8 +6,6 @@ var click1;
 var click2;
 var click3;
 var click4;
-var click5;
-var click6;
 var click7;
 var click8;
 var bgm;
