@@ -32,7 +32,7 @@ function salonenter()  {
       click1.image = mp3player;
       click1.fitImage = true;
       click1.imageScale = 1;
-      click1.locate(30, 560);
+      click1.locate(4, 469);
       click1.resize(200,200);
       click1.onHover = function () {
         click1.imageScale = 0.5;
